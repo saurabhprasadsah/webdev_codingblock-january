@@ -1,12 +1,12 @@
 # webdev_codingblock-january
-# WEB DEVLOPMENT CONTENT
+# WEB DEVLOPMENT CONTENTS
 
-# online
+# online class
 # HTML5
 # CSS3
 # CSS Advanced
 # javasript
-# GIT and GIT HUB
+# GIT and GITHUB
 # REACTJS INTRO
 # WEBSOCKET.IO
 # SOCKET.IO
