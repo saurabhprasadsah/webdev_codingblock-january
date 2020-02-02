@@ -7,7 +7,7 @@
 # CSS Advanced
 # javasript
 # GIT and GITHUB
-# REACTJS INTRO
+# REACTJS 
 # WEBSOCKET.IO
 # SOCKET.IO
 # jQuery
