@@ -5,7 +5,7 @@
 # HTML5
 # CSS3
 # CSS Advanced
-# javasript
+# java.sript
 # GIT and GITHUB
 # REACTJS 
 # WEBSOCKET.IO
