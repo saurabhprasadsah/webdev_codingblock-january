@@ -5,13 +5,13 @@
 # HTML5
 # CSS3
 # CSS Advanced
-# java.sript
+# java.scripts
 # GIT and GITHUB
-# REACTJS 
+# REACT.JS 
 # WEBSOCKET.IO
 # SOCKET.IO
 # jQuery
 # MongoDB
 
 
-Happy c😊de!
+**Happy c😊de!**
