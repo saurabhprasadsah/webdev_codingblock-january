@@ -1,0 +1,23 @@
+*{
+    color: red;
+}
+
+
+div{
+    margin-left: 30px;
+}
+p{
+    margin-left: 20px;
+}
+#p2{
+    font-family: cursive;
+}
+#p3{
+    margin-left: 20px;
+}
+.osmpara{
+    background-color: chartreuse;
+}
+.bigpara{
+    font-size: large;
+}
