@@ -14,3 +14,8 @@ ul ul {
 ul li {
     font-style: oblique;
 }
+
+
+ul ~ ol {
+    background-color: slateblue;
+}
