@@ -1,1 +1,13 @@
-.
+.box  {
+    margin: 20px;
+    padding: 30px;
+}
+#div1 {
+    background-color: lightseagreen;
+}
+#div2 {
+    background-color:lime ;
+}
+#div3  {
+    background-color: lightsteelblue;
+}
