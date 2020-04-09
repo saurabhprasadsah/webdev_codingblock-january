@@ -1,0 +1,16 @@
+#para1 {
+    font-size: 10vh; /* vh=1/100 of the window height */ 
+}
+#para2 {
+    font-size: monospace;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#para3{
+    font-style: italic;
+    font-weight: 200;
+}
+#para4{
+    word-spacing: 10px;
+    letter-spacing: 20pt;
+}
