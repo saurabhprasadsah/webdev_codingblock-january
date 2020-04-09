@@ -1,0 +1,16 @@
+li {
+    font-weight: bold;
+}
+ul > li {
+    color: red;
+}
+ol > li {
+    color: sandybrown;
+}
+
+ul ul {
+    font-style: italic ;
+}
+ul li {
+    font-style: oblique;
+}
