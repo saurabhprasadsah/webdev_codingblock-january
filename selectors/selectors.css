@@ -17,5 +17,9 @@ ul li {
 
 
 ul ~ ol {
-    background-color: slateblue;
+    
+background-color: slateblue;
+}
+ul + ol {
+    background-color: red;
 }
