@@ -1,0 +1,12 @@
+div  {
+    
+    height: 60px;
+    width: 60px;
+    background-color: lawngreen;
+    margin: 20px;
+
+
+}
+.one{
+    transform: scaley(2,3);
+}
