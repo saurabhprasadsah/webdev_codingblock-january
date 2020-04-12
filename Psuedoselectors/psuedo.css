@@ -17,3 +17,7 @@
     font-size: 30pt;
 
 }
+input:focus{
+    height: 200px;
+    font-size: large;
+}
