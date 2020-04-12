@@ -1,0 +1,19 @@
+.box {
+    height: 40px;
+    width: 30px;
+    background-color: lawngreen;
+    padding: 20px;
+    color: royalblue;
+}
+.box:hover{
+
+    background-color: lightcoral;
+    color: red;
+    font-weight: bold;
+}
+.box:active{
+    height: 400px;
+    width: 300px;
+    font-size: 30pt;
+
+}
