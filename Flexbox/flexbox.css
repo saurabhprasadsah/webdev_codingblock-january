@@ -12,10 +12,18 @@
     width: 20px;
     padding: 30px;
     font-size: 30px;
+    flex-shrink: 20px;
 }
-#item11 {
+ #item11 {
 order: 1;
+flex-shrink: 1;
+align-self: flex-end ;
 }
-#item12 {
+
+/* #item12 {
 order: 3;
-}
+} */
+/*#item13 {
+    flex-grow:5 ;
+}*/ */
+*/
