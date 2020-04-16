@@ -1,0 +1,22 @@
+#samplediv {
+    height: 300px;
+    width: 300px;
+    background-color: lightcoral;
+}
+@media (max-width: 1500px){
+    #samplediv{
+        background-color: lightsalmon;
+    }
+ @media (max-width: 1000px){
+        #samplediv{
+            background-color:rebeccapurple;
+        }
+@media (max-width: 750px){
+            #samplediv{
+                background-color: yellowgreen;
+            }
+@media (max-width: 500px){
+                #samplediv{
+                    background-color: whitesmoke;
+                }
+}
