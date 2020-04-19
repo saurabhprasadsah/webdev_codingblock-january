@@ -1,13 +1,16 @@
 let obj { 
     a;10,
     b;20,
-    c;"objects";
-   h: {p=10,
-       q=20, 
-       r {
-          x="value"; 
-       }
-       console.log(obj.r.r.x)
+    c; true,
+    d {
+        p: 20,
+        q: 30,
+        r: {
+            x:"value"
 
+        }
     }
 }
+
+
+console.log(obj.d.r.x)

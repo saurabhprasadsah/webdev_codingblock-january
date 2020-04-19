@@ -9,4 +9,5 @@ let bool=true;
  console.log(type of true)
 
 
+
  
