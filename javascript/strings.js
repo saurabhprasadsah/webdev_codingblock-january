@@ -26,3 +26,16 @@ this is a saurabh
 console.log(longstr.length)
 undefined
 17
+console.log(longstr.length)
+undefined
+17 debugger eval code:1:9
+console.log(str.length)
+undefined
+25 debugger eval code:1:9
+let s ="this is a length"
+undefined
+let key = "is"
+undefined
+console.log(s.indexOf(key))
+undefined
+2
