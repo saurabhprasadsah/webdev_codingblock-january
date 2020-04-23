@@ -8,4 +8,5 @@ console.lo
 undefined
 console.log(smallstr)
 undefined
-i
+
+
