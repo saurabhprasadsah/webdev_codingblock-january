@@ -8,7 +8,8 @@ let notes = ['de','re']
 // console.log(omit)
 
 // console.log(notes)
-//concat meaning
+//concat 
 console.log(notes.concat('sa'))
 console.log(notes)
 
+// concate
