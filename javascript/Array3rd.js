@@ -12,4 +12,4 @@ let notes = ['de','re']
 console.log(notes.concat('sa'))
 console.log(notes)
 
-// concate
+// concate the string
