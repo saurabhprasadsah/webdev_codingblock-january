@@ -4,6 +4,9 @@ function count(){
     function plus(){
         console.log(++initial);
     }
-    plus();
+     return plus();
 }
-count();
+
+var c = count();
+c();
+c();
