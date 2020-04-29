@@ -6,3 +6,4 @@ function count(){
     }
     plus();
 }
+count();
