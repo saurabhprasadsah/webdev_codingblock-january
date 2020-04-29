@@ -27,5 +27,14 @@
 // arr.push(4);
 // console.log(arr);
 
+var myVar = 10;
+function alpha(){
+   // var myVar=11;
+    console.log(myVar)
+}
+
+alpha();
+
+
 
 
