@@ -1,28 +1,37 @@
-// //iife - immediatate invoked function
+// // //iife - immediatate invoked function
 
-// (function sayhello (){
+// // (function sayhello (){
  
-//     var a = 10;
-//     var b = a/5;
-//     console.log(b)
+// //     var a = 10;
+// //     var b = a/5;
+// //     console.log(b)
 
 
-//     ///console.log("hello");
-// }) ();
+// //     ///console.log("hello");
+// // }) ();
 
-// ///console.log(a)
+// // ///console.log(a)
 
-// ///sayhello()
+// // ///sayhello()
 
-// var a = 10;
-// if(true){
-//     console.log(10)
+// // var a = 10;
+// // if(true){
+// //     console.log(10)
+// // }
+ 
+
+// function domath () {
+//     console.log("3^4 =" + Math.pow(3,4));
+//     console.log("4^3 =" + Math.pow(4,3));
+
 // }
- 
+// domath();
 
-function domath () {
-    console.log("3^4 =" + Math.pow(3,4));
-    console.log("4^3 =" + Math.pow(4,3));
 
+
+for( var i=0; i<10; i++){
+    setTimeout(function(){
+        console.log(i);
+    },100
+    )
 }
-domath();
