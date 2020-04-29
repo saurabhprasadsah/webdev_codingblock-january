@@ -3,5 +3,6 @@ function sayhello(){
 }
 
 console.log(" And the wait starts. . . .");
- setTimeout (sayhello,1000);
- setTimeout (sayhello,1000);
+//  setTimeout (sayhello,1000);
+//  setTimeout (sayhello,1000);
+//setInterval(sayhello,1000)
