@@ -9,7 +9,11 @@ window.onload = function(){
 
         let N = parseInt(num.value)
         for (let i =1; i<N;i++){
-            list.innerHTML += '<li>' + i +   '</li>'
+            //list.innerHTML += '<l>' + i +   '</l>'
+
+            let item =document.createElement('li')
+            item.innerText= i
+            list.appendChild(iteam)
         }
         //console.log(new Date().getTime  - start)
 
