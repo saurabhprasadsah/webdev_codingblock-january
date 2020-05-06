@@ -5,8 +5,8 @@
 
 $(()=>{
     $('#prepand').click(() =>{
-        console.log($('#item').val())
-
+        let text = $('#item').val()
+        $('#list').prepand($('<li>${text}</li>'))
 
     })
 
