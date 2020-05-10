@@ -6,6 +6,16 @@ let InputNewtasks = $('#InputNewtasks')
 
 
 btnAdd.click(() =>{
-    console.log(InputNewtasks.val())
-    InputNewtasks.val("")
+    
+    let listItem=  $('<li>',{
+        'class':'list-group-item'
+         text:inpNEWTask.val()               
+    })
+    ultasks.append(lastItem)
+    inpNEWTask.val('')
 })
+
+
+
+btnclear.click(() =>InputNewtasks.val(''))
+    
