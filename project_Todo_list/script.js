@@ -8,9 +8,14 @@ let InputNewtasks = $('#InputNewtasks')
 btnAdd.click(() =>{
     
     let listItem=  $('<li>',{
-        'class':'list-group-item'
+        'class':'list-group-item',
          text:inpNEWTask.val()               
     })
+    listItem.click(()=>{
+        $(this).toggleClass('disabled')
+    })
+
+     
     ultasks.append(lastItem)
     inpNEWTask.val('')
 })
