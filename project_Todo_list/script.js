@@ -4,6 +4,11 @@ let btnclear = $('#btnclear')
 let InputNewtasks = $('#InputNewtasks')
 
 
+InputNewtasks.keypress((e)=>{
+    console.log(e.which)
+})
+
+
 
 btnAdd.click(() =>{
     
