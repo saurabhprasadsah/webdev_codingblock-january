@@ -12,7 +12,7 @@ app.get('/greet',(req, res)=>{
     res.send('Good morning')
 })
 app.get('/forms',(req,res)=>{
-    res.send(`_dirname + '/file/form.html')
+    res.send('C:\Users\saurabh kumar\Desktop\Web dev class\webdev_codingblock-january\Express\forms\forms.html')
        
 
 })
