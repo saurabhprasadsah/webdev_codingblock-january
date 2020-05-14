@@ -3,8 +3,11 @@ function hellosayer(times,name){
     let loopId = setInterval(()=>{
         count++
         console.log('Hello'+name)
-        if (count = times){
+        if (count == times){
             clearInterval(loopId)
+        }
+        while(true){
+
         }
     }, 100)
 }
