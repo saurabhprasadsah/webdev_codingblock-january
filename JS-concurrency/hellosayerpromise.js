@@ -15,5 +15,17 @@ function hellosayer(times,name){
    
 }
 
-hellosayer(3,'saurabh')
-hellosayer(5,'Manish')
+hellosayer(3,'ARNAV')
+   .then(()=>{
+    hellosayer(2,'ARNAV')
+
+   })
+
+
+
+module.exports={
+    hellosayer
+}   
+
+
+
