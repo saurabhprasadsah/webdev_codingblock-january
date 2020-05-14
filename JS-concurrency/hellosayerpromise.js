@@ -18,6 +18,9 @@ function hellosayer(times,name){
 hellosayer(3,'ARNAV')
    .then(()=>{
     hellosayer(2,'ARNAV')
+    .then(()=>{
+        hellosayer(3,'pratik')
+    })
 
    })
 
