@@ -3,7 +3,7 @@ function hellosayer(times,name){
         let count = 0
         let loopId = setInterval(()=>{
             count++
-            console.log('Hello'+ name )
+            console.log('Hello ' +   name )
     
             if (count == times){
                 clearInterval(loopId)
@@ -14,24 +14,19 @@ function hellosayer(times,name){
     })
    
 }
-
-hellosayer(3,'ARNAV')
-   .then(()=>{
-    hellosayer(2,'ARNAV')
-    .then(()=>{
-        hellosayer(3,'pratik')
-    })
-
-   })
+async function task() {
+   await hellosayer(3,'saurabh')
+   await hellosayer(2,'raju')
+   await hellosayer(3,'manish')
 
 
-  x().y().z().a()
+}
 
 
-
-module.exports={
-    hellosayer
-}   
+task()
+hellosayer(2,'jyoti')
 
 
-
+module.exports ={
+   hellosayer
+}
