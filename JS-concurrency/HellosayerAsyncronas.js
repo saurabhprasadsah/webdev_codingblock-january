@@ -14,17 +14,35 @@ function hellosayer(times,name){
     })
    
 }
-async function task() {
-   await hellosayer(3,'saurabh')
-   await hellosayer(2,'raju')
-   await hellosayer(3,'manish')
+// async function task() {
+//    await hellosayer(3,'saurabh')
+//    await hellosayer(2,'raju')
+//    await hellosayer(3,'manish')
 
 
+// }
+
+
+// task()
+// hellosayer(2,'jyoti')
+
+async function task()
+{
+    hellosayer(3,'saurabh')
+    hellosayer(2,'raju')
+    hellosayer(4,'manish')
+    hellosayer(5,'jyoti')
+    hellosayer(1,'juhi')
+    hellosayer(6,'kunal')
 }
-
-
 task()
-hellosayer(2,'jyoti')
+
+
+
+
+
+
+
 
 
 module.exports ={
