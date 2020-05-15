@@ -28,12 +28,23 @@ function hellosayer(times,name){
 
 async function task()
 {
-    hellosayer(3,'saurabh')
-    hellosayer(2,'raju')
-    hellosayer(4,'manish')
+    await promise.all([
+        hellosayer(3,'saurabh')
+        hellosayer(2,'raju')
+        hellosayer(4,'manish')
+
+    ])
+    
+
+
+   console.log("-----js concurrency over-----")
+
+
+    await promise.all([
     hellosayer(5,'jyoti')
     hellosayer(1,'juhi')
     hellosayer(6,'kunal')
+    ])
 }
 task()
 
