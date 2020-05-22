@@ -1,0 +1,22 @@
+{
+  "name": "webdev_codingblock-january",
+  "version": "1.0.0",
+  "description": "**Happy c😊de!**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhprasadsah/webdev_codingblock-january.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhprasadsah/webdev_codingblock-january/issues"
+  },
+  "homepage": "https://github.com/saurabhprasadsah/webdev_codingblock-january#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
