@@ -10,3 +10,5 @@ $(()=>{
 
     })
 })
+    
+    //jqery function use
