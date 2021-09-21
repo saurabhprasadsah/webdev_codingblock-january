@@ -13,5 +13,7 @@ console.log("this winner was"+quidditchWinner);
 changeWinner(quidditchWinner);
  console.log("Now the winner is "+quidditchWinner);
 
+/// Call by value and pass by value
+
 
 
