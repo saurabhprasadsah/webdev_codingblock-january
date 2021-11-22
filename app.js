@@ -24,21 +24,26 @@ app.get("/getData", function (clientReq, clientRes) {
 
 
 });
-
 app.post("/postdata", function(clientReq,clientRes){
-    console.log("hiii")
-     var data = getdatafromrest(function(data){
-         rest.write(data);
-         rest.end();
-     })
-     //rest.get('http://localhost:5984/mycompany', {
-      //  "username": "saurabh",
-       // "password": "rajukumar@123"
+    //console.log("hiii")
+    console.log(clientReq.body)
+    clientRes.write("hello post method");
+       
+     rest.put('http://localhost:5984/mycompany/'+ clientReq.body._id, {
+        "username": "",
+        "password": "",
 
-    //})
+        data: JSON.stringify(clientReq.body),
+        headers : {
+            'Content-Type' : 'application/json'
+        }})
+        .on('complete', function(data, response) {
+            clientRes.write(JSON.stringify(data));
+            clientRes.end();
+        });
 
-    
-})
+
+   
 
 console.log("starting");
 app.listen(8080, function () {
