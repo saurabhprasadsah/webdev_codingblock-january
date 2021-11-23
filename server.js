@@ -13,7 +13,7 @@ function run() {
     var xhr = new XMLHttpRequest();
     // Making our connection 
     var url = 'http://localhost:5984/mycompany/' + id;
-    xhr.open("GET", url, true, "saurabh", "rajukumar@123");
+    xhr.open("GET", url, true, "usename", "password");
     // function execute after request is successful
     xhr.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
