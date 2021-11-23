@@ -7,6 +7,9 @@ router.get('/', function (req, res) {
     res.sendFile('/html/index.html');
 
 });
+
+
+// simple get call without jquery
 function run() {
 
     // Creating Our XMLHttpRequest object
