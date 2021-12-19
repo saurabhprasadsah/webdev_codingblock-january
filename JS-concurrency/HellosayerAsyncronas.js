@@ -35,11 +35,7 @@ async function task()
 
     ])
     
-
-
    console.log("-----js concurrency over-----")
-
-
     await promise.all([
     hellosayer(5,'jyoti')
     hellosayer(1,'juhi')
@@ -47,14 +43,6 @@ async function task()
     ])
 }
 task()
-
-
-
-
-
-
-
-
 
 module.exports ={
    hellosayer
