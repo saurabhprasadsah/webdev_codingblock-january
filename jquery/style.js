@@ -1,6 +1,8 @@
 // window.onload = function(){
 
 // }
+
+
 //console.log($('list'))
 
 $(()=>{
@@ -10,5 +12,6 @@ $(()=>{
 
     })
 })
+ 
     
-    //jqery function use
+  //jqery function use
