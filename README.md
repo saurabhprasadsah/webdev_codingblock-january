@@ -12,7 +12,7 @@
  jQuery
  MongoDB
  Nodejs
- data base"
+ Data base"
 
 **Happy c😊de!**
 
