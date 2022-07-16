@@ -8,11 +8,10 @@ app.get('/', (req,res)=>{
         res.send(data)
     });    
 })
+
 app.get('/get', (req,res)=>{
     res.send('get request')
 })
 
-app.listen(3233)
+app.listen(3233) //// port number 3233
 
-//console.log("hii")
-//console.log("helllo world")
