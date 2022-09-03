@@ -4,23 +4,23 @@ const app = express()
 
 
 function m1 (req,res,next){
-    console.log('Rinnig middleware 1')
+    console.log('Runinig middleware 1')
     next()
 }
 function m2 (req,res,next){
-    console.log('Rinnig middleware 1')
+    console.log('Runinig middleware 1')
     next()
 }
 function m3 (req,res,next){
-    console.log('Rinnig middleware 1')
+    console.log('Runinig middleware 1')
     next()
 }
 function m4 (req,res,next){
-    console.log('Rinnig middleware 1')
+    console.log('Runinig middleware 1')
     next()
 }
 function m5 (req,res,next){
-    console.log('Rinnig middleware 1')
+    console.log('Runinig middleware 1')
     next()
 }
 
