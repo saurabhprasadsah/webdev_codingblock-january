@@ -1,5 +1,7 @@
-const express = require('express')
-const fs = require("fs")
+
+
+const express = require('express') //express
+const fs = require("fs")   //file system
 const app = express()
 
 app.get('/', (req,res)=>{
@@ -13,5 +15,7 @@ app.get('/get', (req,res)=>{
     res.send('get request')
 })
 
-app.listen(3233) //// port number 3233
+app.listen(3233) 
+
+//// port number 3233
 
